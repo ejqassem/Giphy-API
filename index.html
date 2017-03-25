@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Giphy API Buttons</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -9,6 +10,26 @@
 </head>
 <body>
 
+  <div class="main-content" id="buttonsHere">
+    <button class="shows" data-show="Psych">Psych</button>
+    <button class="shows" data-show="Scrubs">Scrubs</button>
+    <button class="shows" data-show="Suits">Suits</button>
+    <button class="shows" data-show="White-Collar">White Collar</button>
+    <button class="shows" data-show="Hawaii-Five-O">Hawaii Five O</button>
+    <button class="shows" data-show="Silicon-Valley">Silicon Valley</button>
+    <button class="shows" data-show="The-Walking-Dead">The Walking Dead</button>
+    <button class="shows" data-show="Game-Of-Thrones">Game Of Thrones</button>
+    <button class="shows" data-show="Criminal-Minds">Criminal Minds</button>
+    <button class="shows" data-show="Fresh-Prince-of-Bel-Air">Fresh Prince of Bel-Air</button>
+  </div>
+
+  <div class="main-content" id="gifsHere"></div>
+
+  <form id="formHere">
+    <p>Add a new button here</p>
+    <input id="newButtonText" type="text" name="new-button">
+    <button id="formButton" type="submit" value="submit">Click Here</button>
+  </form>
 
 <script src="assets/javascript/app.js"></script>
 </body>

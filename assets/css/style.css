@@ -1,0 +1,25 @@
+#buttonsHere {
+  float: left;
+}
+ #gifsHere {
+   margin-top: 20px;
+   clear: both;
+   float: left;
+   width: 69%;
+ }
+
+ .gifs {
+   float: left;
+   padding-right: 5px;
+   padding-left: 5px;
+ }
+
+form {
+  position: fixed;
+  top: 50px;
+  right: 150px;
+}
+
+.shows {
+  margin-top: 15px;
+}
