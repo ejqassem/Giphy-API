@@ -10,6 +10,9 @@
 
  .gifs {
    float: left;
+   position: relative;
+   padding-top: 20px;
+   padding-bottom: 20px;
    padding-right: 5px;
    padding-left: 5px;
  }
@@ -22,4 +25,11 @@ form {
 
 .shows {
   margin-top: 15px;
+  margin-right: 3px;
+}
+
+.ratings {
+  position: relative;
+  top: 30%;
+  transform: translateY(-50%)
 }
